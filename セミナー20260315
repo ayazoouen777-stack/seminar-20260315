@@ -1,0 +1,49 @@
+     1	<!DOCTYPE html>
+     2	<html lang="ja">
+     3	<head>
+...
+   902	
+   903	    <!-- JavaScript -->
+   904	    <script src="js/main.js"></script>
+   905	</body>
+   906	</html>     1	/* =========================================
+     2	   Reset & Base Styles
+     3	   ========================================= */
+...
+   496	    display: flex;
+   497	    align-items: center;
+   498	    justify-content: center;
+   499	    background: var(--gradient-primary);
+   500	    border-radius: var(--radius-md);   500	    border-radius: var(--radius-md);
+   501	    color: var(--color-white);
+   502	    font-size: 1.5rem;
+...
+   995	    font-size: 1.25rem;
+   996	    font-weight: 600;
+   997	    margin-bottom: 1rem;
+   998	    color: var(--color-charcoal);
+   999	}   999	}
+  1000	
+  1001	.detail-card p {
+...
+  1821	        right: 20px;
+  1822	        width: 45px;
+  1823	        height: 45px;
+  1824	    }
+  1825	}   300	}
+   301	
+   302	.hero-content {
+...
+  1821	        right: 20px;
+  1822	        width: 45px;
+  1823	        height: 45px;
+  1824	    }
+  1825	}     1	// =========================================
+     2	// Smooth Scroll & Navigation
+     3	// =========================================
+...
+   490	}, { threshold: 0.5 });
+   491	
+   492	sections.forEach(section => {
+   493	    sectionObserver.observe(section);
+   494	});
